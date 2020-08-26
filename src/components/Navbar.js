@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from '../bake.png'
+import logo from '../baked-goods.png'
+import '../components/NavBar.css'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
 
 function NavBar() {
     return(
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-            <img src={ logo } height="25px"></img>
+        <Navbar collapseOnSelect expand="lg" className="nav">
+            <img src={ logo } className="logo"></img>
             <Navbar.Brand href="#home">Bake React</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">

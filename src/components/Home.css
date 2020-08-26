@@ -1,0 +1,12 @@
+.tinted-background {
+    background: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.45), 
+        rgba(0, 0, 0, 0.45)
+        ),
+        /* bottom, image */
+        url(../background.jpg);
+    min-height: 100%;
+    background-size: cover;
+    background-position: 50% 0;
+    }
